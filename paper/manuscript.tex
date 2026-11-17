@@ -158,12 +158,14 @@
   \nobreak\@afterindenttrue\@afterheading
 }
 \makeatother
-% House style for standard/arxiv-ams: match the References section heading.
+% House style: centered bold upright Abstract heading at abstract-body size.
 % The native abstract box, margins and body font remain owned by amsart.
 \usepackage{etoolbox}
 \newcommand{\pandocabstractheading}{%
   \par\begingroup
-    \normalsize\section*{\abstractname}%
+    % Change only the heading style; keep the contents/bookmark title plain.
+    \let\scshape\bfseries
+    \section*{\abstractname}%
   \endgroup
   \nobreak\noindent\ignorespaces
 }
