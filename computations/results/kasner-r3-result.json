@@ -1,0 +1,36 @@
+{
+  "controller_status": "STOPPED",
+  "container_id": "e8f6b7b51074b5b36bf83006c2eb54c29d00808362f814521ca934c393497a5e",
+  "image_id": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "limits": {
+    "memory_bytes": 1992294400,
+    "memory_plus_swap_bytes": 1992294400,
+    "nano_cpus": 1000000000,
+    "network": "none",
+    "pids": 64,
+    "restart": "no",
+    "inner_wall_limit_seconds": 880,
+    "outer_wall_limit_seconds": 895,
+    "log": {
+      "Type": "local",
+      "Config": {
+        "max-file": "2",
+        "max-size": "1m"
+      }
+    },
+    "tmpfs": {
+      "/tmp": "rw,size=33554432"
+    },
+    "read_only": true
+  },
+  "vm": {
+    "memory_bytes": 8318709760,
+    "cpu_count": 16
+  },
+  "existing_service_usage": "open-webui 0.18% 1.442GiB / 7.747GiB\ncaddy 0.00% 58.13MiB / 7.747GiB\nredis 0.26% 33.98MiB / 7.747GiB\nsearxng 0.00% 196.4MiB / 7.747GiB\n",
+  "exit_code": 0,
+  "oom_killed": false,
+  "timed_out": false,
+  "wall_seconds": 5.997260916978121,
+  "output": "{\"status\": \"PASS\", \"field\": \"Q(i)\", \"metric\": \"dt^2 - sum(t^(2*p_i) dx_i^2)\", \"kasner_exponents\": [\"-2/7\", \"3/7\", \"6/7\"], \"Lambda\": 0, \"at_t\": 1, \"orders\": [{\"r\": 1, \"chirality\": \"+\", \"components\": 48, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 1, \"chirality\": \"-\", \"components\": 48, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 2, \"chirality\": \"+\", \"components\": 84, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 2, \"chirality\": \"-\", \"components\": 84, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 3, \"chirality\": \"+\", \"components\": 128, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 3, \"chirality\": \"-\", \"components\": 128, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}], \"max_r\": 3, \"elapsed_seconds\": 2.3041841259691864, \"runtime_cgroup_limits\": {\"memory.max\": \"1992294400\", \"memory.swap.max\": \"0\", \"cpu.max\": \"100000 100000\", \"pids.max\": \"64\"}, \"max_rss_kib\": 335732, \"scope\": \"finite exact geometric checks, not an all-order proof\"}\n"
+}

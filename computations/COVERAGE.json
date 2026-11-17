@@ -1,0 +1,243 @@
+{
+  "version": "1.0",
+  "preparation_revision": 2,
+  "current_source_sha256": "b5e1928f5fddc8dec763e09c6fd0c0d4078cc630156551cc5661d40754035822",
+  "selected_primary_records": [
+    {
+      "id": "KASNER-R1",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "kasner-r1",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-spencer-spectrum",
+        "eq:es-q-one",
+        "eq:es-q-two",
+        "eq:es-q-three"
+      ],
+      "role_in_current_paper": "Finite geometric specialization; updated precursor separately asserts vacuum and Q0=0.",
+      "upstream_exclusions": "One Kasner vacuum at t=1, Lambda=0; pilot contained in the order-three profile. HQ is geometrically differentiated; the polynomial product rule is not exercised. Chiral outputs are conjugate on this real metric. The geometric residual comparison also holds on non-Einstein metrics; the full current Kasner job still asserts vacuum conditions and Q0=0 and is not claimed to pass on those metrics."
+    },
+    {
+      "id": "KASNER-R3",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "kasner-r3",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-spencer-spectrum",
+        "eq:es-q-one",
+        "eq:es-q-two",
+        "eq:es-q-three"
+      ],
+      "role_in_current_paper": "Finite geometric specialization; updated precursor separately asserts vacuum and Q0=0.",
+      "upstream_exclusions": "One Kasner vacuum at t=1, Lambda=0; not all-input or all-order compatibility. HQ is geometrically differentiated; the polynomial product rule is not exercised. Chiral outputs are conjugate on this real metric. The geometric residual comparison also holds on non-Einstein metrics; the full current Kasner job still asserts vacuum conditions and Q0=0 and is not claimed to pass on those metrics."
+    },
+    {
+      "id": "B-RESIDUAL-R4",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "finite-numerical-residual-or-crosscheck",
+      "job": "b-low4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "No explicit all-degree P++Q residual here. Finite selected labels/degrees; no general compatibility proof."
+    },
+    {
+      "id": "B-VALUES-R4",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "numerical-observation-record",
+      "job": "b-low4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "Lower-value interpretation concerns the measured polarized maps, not one identified ordered B coefficient. No polarization-factor bridge, atomic mass, certified upper bound, all-order gain or convergence proof."
+    },
+    {
+      "id": "B-RESIDUAL-R8",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "finite-numerical-residual-or-crosscheck",
+      "job": "b-low8",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "No explicit all-degree P++Q residual here. Finite selected labels/degrees; no general compatibility proof."
+    },
+    {
+      "id": "B-VALUES-R8",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "numerical-observation-record",
+      "job": "b-low8",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "Lower-value interpretation concerns the measured polarized maps, not one identified ordered B coefficient. No polarization-factor bridge, atomic mass, certified upper bound, all-order gain or convergence proof."
+    },
+    {
+      "id": "B-CROSS-R4",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "finite-numerical-residual-or-crosscheck",
+      "job": "b-low4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "Shared projection helpers; not independent implementations or componentwise equality. Float64 and seven-digit printed values."
+    },
+    {
+      "id": "B-RANDOM-R4",
+      "classification": "numerical-diagnostic",
+      "evidence_role": "finite-numerical-residual-or-crosscheck",
+      "job": "b-low4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "thm:es-coefficients"
+      ],
+      "role_in_current_paper": "Related finite numerical diagnostics; no identification with an ordered coefficient or new diagram mass.",
+      "upstream_exclusions": "Directional derivative construction is algebraic but coefficient arithmetic is float64; no exact or all-input assertion."
+    },
+    {
+      "id": "AB-PROJECTORS-R1",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r1",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-spencer-spectrum"
+      ],
+      "role_in_current_paper": "Exact finite-basis Spencer and free-projection checks.",
+      "upstream_exclusions": "Finite r only; no surjectivity claim on arbitrary antisymmetric sources. The order-one pilot overlaps order four."
+    },
+    {
+      "id": "AB-WEYL-ADMISSIBILITY-R1",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r1",
+      "current_anchors": [
+        "eq:es-curvature-decomposition",
+        "eq:es-algebraic-curvature"
+      ],
+      "role_in_current_paper": "Complete quartic Weyl basis and signed inverse readout at Lambda=0.",
+      "upstream_exclusions": "Linear algebraic curvature conditions at Lambda=0; does not compute general differentiated Bianchi completion. Repeated pilot check."
+    },
+    {
+      "id": "AB-EXACT-SET-R1",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r1",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-q-one",
+        "eq:es-q-two",
+        "eq:es-q-three"
+      ],
+      "role_in_current_paper": "Exact polynomial product-rule test on one declared nilpotent mixed family.",
+      "upstream_exclusions": "One explicit quotient-algebra family of independent complex free lists, Lambda=0. Formal coefficient-algebra use depends on A.3/A.4. No new analytic metric witness, all-input theorem or all-order estimate. Compatibility alone does not calibrate the curvature-action sign or Lambda coefficient. The separate independent witness result does not execute this backend."
+    },
+    {
+      "id": "AB-PROJECTORS-R4",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-spencer-spectrum"
+      ],
+      "role_in_current_paper": "Exact finite-basis Spencer and free-projection checks.",
+      "upstream_exclusions": "Finite r only; no surjectivity claim on arbitrary antisymmetric sources. The order-one pilot overlaps order four."
+    },
+    {
+      "id": "AB-WEYL-ADMISSIBILITY",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r4",
+      "current_anchors": [
+        "eq:es-curvature-decomposition",
+        "eq:es-algebraic-curvature"
+      ],
+      "role_in_current_paper": "Complete quartic Weyl basis and signed inverse readout at Lambda=0.",
+      "upstream_exclusions": "Linear algebraic curvature conditions at Lambda=0; does not compute general differentiated Bianchi completion. Repeated pilot check."
+    },
+    {
+      "id": "AB-EXACT-SET-R4",
+      "classification": "finite-exact",
+      "evidence_role": "paper-exact-check",
+      "job": "ab-r4",
+      "current_anchors": [
+        "eq:es-recursion",
+        "eq:es-q-one",
+        "eq:es-q-two",
+        "eq:es-q-three"
+      ],
+      "role_in_current_paper": "Exact polynomial product-rule test on one declared nilpotent mixed family.",
+      "upstream_exclusions": "One explicit quotient-algebra family of independent complex free lists, Lambda=0. Formal coefficient-algebra use depends on A.3/A.4. No new analytic metric witness, all-input theorem or all-order estimate. Compatibility alone does not calibrate the curvature-action sign or Lambda coefficient. The separate independent witness result does not execute this backend."
+    }
+  ],
+  "selected_independent_evidence": [
+    {
+      "id": "IW-GEOMETRY-CONTROLS-R2",
+      "classification": "finite-exact",
+      "current_anchors": [
+        "eq:es-curvature-decomposition",
+        "eq:es-algebraic-curvature",
+        "eq:es-recursion"
+      ],
+      "role_in_current_paper": "Separate implementation: five Einstein and two non-Einstein metric witnesses through r=2, with enforced sign/Lambda controls.",
+      "direct_geometric_test_of_primary_ab_exact": false
+    }
+  ],
+  "excluded_primary_records": [
+    "AASS-ALGEBRA",
+    "AASS-PRINTED-CURVATURE",
+    "D2-JACOBI-ALGEBRA",
+    "D2-MATRIX-CHAIN-RULE",
+    "D2-RATIONAL-MATRIX",
+    "K5-EF",
+    "K5-PROJECTOR",
+    "K5-RESIDUE",
+    "S9-MIXED-COTTON",
+    "S9-MIXED-REPAIR",
+    "S9-WAVE-RICCI",
+    "SCH-CONFORMAL",
+    "SCH-RICCI",
+    "SCH-SCREEN"
+  ],
+  "exclusion_reason": "Schwarzschild optical, Adamo, two-wave Ricci-repair and matrix-Schwarzian claims are not assertions of this extracted paper; retained upstream, not counted as its checks.",
+  "formula_alignment": [
+    {
+      "precursor_anchor": "eq:gg-budget-actual-recursion",
+      "current_anchor": "eq:es-recursion",
+      "match": "Exact mathematical text after whitespace normalization",
+      "normalized_sha256": "b5edaedefafcba0fe68ca7cd587c63c84d669f13f73583cf807be5b682799740"
+    },
+    {
+      "precursor_anchor": "eq:gg-budget-spencer-spectrum",
+      "current_anchor": "eq:es-spencer-spectrum",
+      "match": "Exact mathematical text after whitespace normalization",
+      "normalized_sha256": "1b58d121fac375ae13c8311e28f7d075cbccb658264df842d5a97739081c74f9"
+    },
+    {
+      "precursor_anchor": "eq:gg-algebraic-curvature",
+      "current_anchor": "eq:es-algebraic-curvature",
+      "match": "Same mathematical text after whitespace, delimiter and terminal punctuation presentation normalization",
+      "normalized_sha256": "e07d56b5fef44085fdf499e42749398fcf178db2549c07b60faa10dab2336c88"
+    }
+  ],
+  "signed_readout_rhs_matches": true,
+  "coverage_relation": "Every primary record in the precursor Kasner, A/B free-record and B diagnostic jobs, plus its independent witness group, is retained unchanged and mapped here.",
+  "not_claimed": [
+    "arbitrary-input or all-order certification",
+    "atomic diagram-mass computation",
+    "analytic convergence by computation",
+    "fresh execution of inherited records"
+  ]
+}

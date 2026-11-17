@@ -1,0 +1,16 @@
+{
+  "recorded_image_tag": "sagemath/sagemath:10.9",
+  "recorded_local_image_id": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "image_identifier_kind": "local image ID, not a registry repository digest",
+  "memory_plus_swap_bytes": 1992294400,
+  "swap_bytes": 0,
+  "cpu_cores": 1,
+  "pids": 64,
+  "network": "none",
+  "restart": "no",
+  "inner_timeout_seconds": 880,
+  "outer_timeout_seconds": 895,
+  "temporary_filesystem_bytes": 33554432,
+  "read_only_root": true,
+  "note": "Recorded environment; no mathematical job was rerun during release preparation."
+}

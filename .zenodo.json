@@ -1,0 +1,23 @@
+{
+  "title": "Local analytic Einstein metrics from free curvature data in four dimensions",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Isthmus, Lior",
+      "orcid": "0009-0004-7908-9876"
+    }
+  ],
+  "description": "This preprint reconstructs marked holomorphic Einstein metric germs in four dimensions from two complete free chiral curvature records satisfying a factorial growth bound, for every prescribed cosmological constant. It proves uniform nonlinear coefficient estimates, convergent record flows, direct radial Jacobi realization, holomorphic dependence, point and full spin-frame comparisons, and the Lorentz real form. The deposit includes the paper, Markdown and TeX sources, and selected finite exact Kasner and free-record checks, independent metric witnesses with convention controls, and separately classified numerical diagnostics, with code, inputs, environment and saved results. Those checks are not an all-order formal proof. AI use is disclosed in the manuscript.",
+  "version": "1.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Einstein metrics",
+    "curvature records",
+    "exact sets",
+    "analytic reconstruction",
+    "spinor geometry"
+  ]
+}

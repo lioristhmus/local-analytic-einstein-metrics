@@ -1,0 +1,20 @@
+{
+  "metric": "dt^2 - sum(t^(2*p_i) dx_i^2)",
+  "kasner_exponents": [
+    "-2/7",
+    "3/7",
+    "6/7"
+  ],
+  "Lambda": 0,
+  "at_t": 1,
+  "max_r_runs": [
+    1,
+    3
+  ],
+  "arithmetic": "Q(i)",
+  "output_chiralities": [
+    "+",
+    "-"
+  ],
+  "spin_basis": "Unscaled L; common normalization cancels on both sides of each identity."
+}

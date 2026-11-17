@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the paper using the preferred citation below. DOI and release URL will be added after publication."
+title: "Local analytic Einstein metrics from free curvature data in four dimensions"
+type: dataset
+authors:
+  - given-names: Lior
+    family-names: Isthmus
+    orcid: "https://orcid.org/0009-0004-7908-9876"
+version: "1.0"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+keywords:
+  - Einstein metrics
+  - curvature records
+  - exact sets
+  - analytic reconstruction
+  - spinor geometry
+preferred-citation:
+  type: unpublished
+  title: "Local analytic Einstein metrics from free curvature data in four dimensions"
+  authors:
+    - given-names: Lior
+      family-names: Isthmus
+      orcid: "https://orcid.org/0009-0004-7908-9876"
+  year: 2026
+  version: "1.0"

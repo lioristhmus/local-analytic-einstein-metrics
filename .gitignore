@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+# Preserve the inherited, explicitly classified historical mathematical logs.
+!computations/precursor/independent/prior-audit/*.log

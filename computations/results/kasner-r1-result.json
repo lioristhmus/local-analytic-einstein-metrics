@@ -1,0 +1,36 @@
+{
+  "controller_status": "STOPPED",
+  "container_id": "f607c79ab77574a5f137527a897a44064e44e6bb18488f4c66891a3dd7ad33d7",
+  "image_id": "sha256:e068670ae5863b54b2550e72437ec637b0283acb0dc712c8584c124dbf44e667",
+  "limits": {
+    "memory_bytes": 1992294400,
+    "memory_plus_swap_bytes": 1992294400,
+    "nano_cpus": 1000000000,
+    "network": "none",
+    "pids": 64,
+    "restart": "no",
+    "inner_wall_limit_seconds": 880,
+    "outer_wall_limit_seconds": 895,
+    "log": {
+      "Type": "local",
+      "Config": {
+        "max-file": "2",
+        "max-size": "1m"
+      }
+    },
+    "tmpfs": {
+      "/tmp": "rw,size=33554432"
+    },
+    "read_only": true
+  },
+  "vm": {
+    "memory_bytes": 8318709760,
+    "cpu_count": 16
+  },
+  "existing_service_usage": "open-webui 0.33% 1.443GiB / 7.747GiB\ncaddy 0.00% 58.38MiB / 7.747GiB\nredis 0.31% 34.22MiB / 7.747GiB\nsearxng 0.00% 196.4MiB / 7.747GiB\n",
+  "exit_code": 0,
+  "oom_killed": false,
+  "timed_out": false,
+  "wall_seconds": 4.573940834030509,
+  "output": "{\"status\": \"PASS\", \"field\": \"Q(i)\", \"metric\": \"dt^2 - sum(t^(2*p_i) dx_i^2)\", \"kasner_exponents\": [\"-2/7\", \"3/7\", \"6/7\"], \"Lambda\": 0, \"at_t\": 1, \"orders\": [{\"r\": 1, \"chirality\": \"+\", \"components\": 48, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}, {\"r\": 1, \"chirality\": \"-\", \"components\": 48, \"recursion_residuals\": 0, \"free_projection_residuals\": 0}], \"max_r\": 1, \"elapsed_seconds\": 0.16939562500920147, \"runtime_cgroup_limits\": {\"memory.max\": \"1992294400\", \"memory.swap.max\": \"0\", \"cpu.max\": \"100000 100000\", \"pids.max\": \"64\"}, \"max_rss_kib\": 298536, \"scope\": \"finite exact geometric checks, not an all-order proof\"}\n"
+}

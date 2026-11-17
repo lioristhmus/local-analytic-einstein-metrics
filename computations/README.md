@@ -1,0 +1,53 @@
+# Computational supplement for the extracted Einstein paper
+
+This expanded preparation retains every relevant check from the precursor's
+fixed r3 supplement. The original five-file Kasner companion remains unchanged
+and linked from the PDF. The added `precursor/` directory contains all 85 files
+of the supplement at tag `paper-v1.1`; `UPSTREAM.json` fixes their provenance.
+The mathematical code, saved runs, dependencies, inputs and checksums are unchanged.
+
+| Relevant group | Retained evidence | Scope |
+| --- | --- | --- |
+| Kasner recurrence | Both chiralities through r=3; 520 entries | Fixed vacuum metric; explicit vacuum and Q0 checks in the precursor code |
+| Spencer maps | All 880 basis vectors through r=4 | Finite projection decomposition, compressed spectrum and complementary inverse |
+| Algebraic Weyl reconstruction | Ten quartic basis vectors; 320 signed readout components | Lambda-zero algebraic curvature and normalization |
+| Polynomial free records | 7,040 scalar coefficient slots through r=4; required nonzero mixed cubic output | One specified independent mixed chiral family over a nilpotent rational coefficient algebra |
+| Independent geometry | Five Einstein metrics and two non-Einstein controls through r=2 | Separate implementation, Q0 and polynomial/geometric comparison; curvature-sign and Lambda-coefficient controls |
+| Coefficient diagnostics | float64 profiles through r=4 and r=8 | Finite residual/crosschecks and observations, not certified norm bounds |
+
+These comprise 14 relevant primary record IDs (8 finite-exact and 6 numerical)
+and one independent finite-exact evidence group. Pilots overlap the larger runs;
+coefficient slots include zeros and are not independent examples. The remaining
+14 primary IDs in `precursor/` concern claims outside this paper and are not
+counted here. The full source package is retained so dependencies and provenance
+are not weakened by selective copying.
+
+`PAPER-CODE-MAP.md` maps the new paper; `COVERAGE.json` records all selected and
+excluded IDs. The five-line recurrence and Spencer spectrum match the precursor
+mathematical text exactly after whitespace normalization. Algebraic curvature
+and signed readout conventions also agree. All-order diagram masses and
+convergence remain proofs in the paper, not results of these finite tests.
+
+## Validate files and saved evidence
+
+```sh
+python3 scripts/validate_release.py
+```
+
+Run that command from the repository root. It also runs the precursor's file-only
+QA, checking all 85 files, 84 checksums, source/log/input correspondence and
+the independent convention controls. No mathematical program is invoked.
+
+## Reproduce mathematical jobs
+
+Use the pinned, isolated controller and new output directories documented in
+`precursor/README.md`. The most relevant primary jobs are `ab-r1`, `ab-r4`,
+`kasner-r1`, `kasner-r3`, `b-low4` and `b-low8`; the independent job is
+`independent/code/run.py --job witness-r2`. The shared machine-wide lock,
+memory-plus-swap below 2GB, one CPU, no network and finite container deadlines
+remain in force. No mathematical job was rerun for this preparation.
+
+The imported README and review metadata describe the original preparation
+and original manuscript baseline; they are preserved historical provenance,
+not current publication-status claims. Historical audit logs remain separate
+from source-bound accepted runs. See `precursor/INDEPENDENT-EVIDENCE.md`.
