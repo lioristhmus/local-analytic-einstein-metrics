@@ -8,7 +8,7 @@ citation metadata and manifests are licensed under
 
 Executable code in `scripts/`, `computations/code/`,
 `computations/precursor/code/` and `computations/precursor/independent/code/`
-is licensed under [Apache-2.0](LICENSE-APACHE-2.0). The original companion ZIP has the same
+is licensed under [Apache-2.0](LICENSE-APACHE-2.0). The companion ZIP has the same
 scopes: Python code is Apache-2.0; its documentation and saved results
 are CC BY 4.0.
 

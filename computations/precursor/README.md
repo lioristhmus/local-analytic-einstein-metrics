@@ -1,18 +1,20 @@
 # Computational supplement for local analytic Einstein germs
 
-Local release candidate **0.2.0**, revision 3, accompanying Lior Isthmus, *A projective twistor
-correspondence for local analytic Einstein germs*, paper v1.0. The target is
-tag `paper-v1.0` at commit `6880bc1085d7faf4dd67c3dd4ef2331126878fb7` of
-[the paper repository](https://github.com/lioristhmus/projective-twistor-einstein-germs).
-The fixed source and artifact hashes are in [BASELINE.json](BASELINE.json).
-This revision is fixed locally for submission/review; it has not been published. Claude completed an independent audit of 0.1.0 and the three added calculations. That audit and its final recommendations have been reconciled here. It was not a line-by-line audit of the final 0.2.0 code; see [REVIEW-STATUS.json](REVIEW-STATUS.json) and [RECONCILIATION.md](RECONCILIATION.md).
+These checks accompany *A projective twistor correspondence for local analytic
+Einstein germs*. The source package is published at
+[tag `paper-v1.1`](https://github.com/lioristhmus/projective-twistor-einstein-germs/tree/paper-v1.1/computations).
+[BASELINE.json](BASELINE.json) identifies the paper version used for the formula
+locators. [REVIEW-STATUS.json](REVIEW-STATUS.json), [QA.json](QA.json) and
+[RECONCILIATION.md](RECONCILIATION.md) record the source audit and its scope;
+the saved execution records are dated 13 November 2026.
 
 The supplement provides reproducible finite checks of selected formulas in
 Section 9 and Appendices A/B, D.2 and K, plus numerical diagnostics for the record recursion. It does
 not certify the paper's complete analytic or categorical arguments. The twenty-eight registered
 records comprise twenty exact checks tied to paper formulas, two external-source
 exact comparisons, four numerical residual/crosschecks and two numerical observation
-records. The latter test data integrity and do not verify an inequality. [REVIEW-STATUS.json](REVIEW-STATUS.json) records the current independent-review status. The order-one Kasner run is a resource pilot contained in the
+records. The latter test data integrity and do not verify an inequality. The source audit covers the original checks and three additional calculations;
+it is not a line-by-line independent audit of every final source file. The order-one Kasner run is a resource pilot contained in the
 order-three test, not an independent geometric example. The exact A/B order-one pilot similarly overlaps the order-four profile.
 
 - [CHECKS.md](CHECKS.md) and [checks.json](checks.json) map every check to stable
@@ -29,11 +31,11 @@ order-three test, not an independent geometric example. The exact A/B order-one 
 - [environment.lock.json](environment.lock.json), [LICENSES.md](LICENSES.md) and
   [SHA256SUMS.txt](SHA256SUMS.txt) specify the runtime, licenses and file integrity.
 
-The fresh runs use SageMath 10.9, SymPy 1.14.0, NumPy 2.4.4 and Python 3.12.3 in
+The saved runs use SageMath 10.9, SymPy 1.14.0, NumPy 2.4.4 and Python 3.12.3 in
 the pinned Docker image. Sage's rational number fields and exact symbolic
 expressions are used for the exact checks. Appendix B diagnostics use float64.
-All primary retained results in `results/` are new executions of the distributed
-mathematical code. Historical logs are not relabeled as new results.
+The primary results in `results/` bind the executed mathematical code and
+inputs by hash. Earlier audit logs have their own provenance records.
 
 ## Reproduction
 
@@ -101,7 +103,7 @@ unconfirmed cleanup also force a nonzero result.
 
 The Kasner tests compare geometrically differentiated curvature with the
 normalized Spencer commutator identity at one fixed vacuum metric through order
-three. They now check $Q_0=0$ explicitly. Their $HQ$ is differentiated geometrically,
+three. They check $Q_0=0$ explicitly. Their $HQ$ is differentiated geometrically,
 so these tests do not exercise the polynomial product-rule implementation or
 independent complex chiral lists. The A/B additions instead apply that product
 rule to a declared rational mixed family of independent free records through
@@ -150,11 +152,11 @@ Code is licensed under Apache-2.0; inputs, results and documentation under
 CC BY 4.0. See [LICENSES.md](LICENSES.md). External runtimes and the external
 Adamo article are not bundled. There is no separate supplement DOI.
 
-## Independent geometric calibration in revision 3
+## Independent geometric calibration
 
-[INDEPENDENT-EVIDENCE.md](INDEPENDENT-EVIDENCE.md) separates one fresh, source-bound
+[INDEPENDENT-EVIDENCE.md](INDEPENDENT-EVIDENCE.md) separates one source-bound
 finite witness group from the 28 primary records and from historical audit logs.
-It uses Claude's unchanged independent implementation plus a new adapter that
+It uses Claude's unchanged independent implementation plus an adapter that
 turns the specified sign, Lambda and non-Einstein distinctions into actual PASS
 conditions. It never calls the primary A/B backend. Reproduce it with:
 

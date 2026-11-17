@@ -3,9 +3,11 @@
 Code, inputs, environments and saved results accompany
 *Local analytic Einstein metrics from free curvature data in four dimensions*.
 The supplement includes the Kasner companion linked from the PDF and the
-85-file computational package published with
+computational package published with
 [the projective twistor paper, tag `paper-v1.1`](https://github.com/lioristhmus/projective-twistor-einstein-germs/tree/paper-v1.1/computations).
-[UPSTREAM.json](UPSTREAM.json) identifies that source and its file hashes.
+[UPSTREAM.json](UPSTREAM.json) identifies the original file hashes and the
+documentation updates. Computational code, inputs and saved results retain
+their original bytes.
 
 | Relevant group | Retained evidence | Scope |
 | --- | --- | --- |
@@ -45,7 +47,7 @@ the archive root instead:
 python3 computations/precursor/code/verify_package.py
 ```
 
-That command checks the unchanged 85-file precursor package. The archive's
+That command checks the 85-file precursor package. The archive's
 `ARCHIVE-MANIFEST.json` additionally records the wrapper files and current-paper map.
 
 ## Reproduce mathematical jobs

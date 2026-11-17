@@ -14,8 +14,8 @@ The order-one run overlaps the order-three run; these are not 616 distinct
 tests. These finite equalities do not prove the all-order estimates or
 convergence. See [PAPER-CODE-MAP.md](PAPER-CODE-MAP.md).
 
-The original companion archive is preserved byte for byte at
-`../paper/exact-set-checks-v0.1.1.zip`, where the PDF's relative link resolves.
+The companion archive is at
+`../paper/exact-set-checks-v1.0.2.zip`, where the PDF's relative link resolves.
 The image identifier in the records is a local image ID,
 not a registry repository digest. `environment.json` records that distinction.
 

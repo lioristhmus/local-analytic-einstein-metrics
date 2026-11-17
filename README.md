@@ -1,6 +1,6 @@
 # Local analytic Einstein metrics from free curvature data in four dimensions
 
-Lior Isthmus · v1.0.1 · [ORCID](https://orcid.org/0009-0004-7908-9876)
+Lior Isthmus · v1.0.2 · [ORCID](https://orcid.org/0009-0004-7908-9876)
 
 This paper reconstructs marked holomorphic Einstein metric germs in four
 dimensions from two free chiral curvature records satisfying a factorial
@@ -14,8 +14,8 @@ Jacobi realization, holomorphic dependence and the Lorentz real form.
 - [Build instructions](docs/BUILD.md), [verification](docs/VERIFICATION.md) and [release notes](docs/RELEASE.md)
 - [Citation](CITATION.cff) and [licenses](LICENSES.md)
 
-Version 1.0.1 is published on [GitHub](https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1) and
-[Zenodo](https://doi.org/10.5281/zenodo.24318760) (DOI: `10.5281/zenodo.24318760`).
+Published editions are available on [GitHub](https://github.com/lioristhmus/local-analytic-einstein-metrics/releases) and
+[Zenodo](https://doi.org/10.5281/zenodo.24318759).
 
 ## Verify the supplied files
 
@@ -36,8 +36,8 @@ recursion. The AB-* records test the polynomial free-record implementation;
 the IW-* group supplies independent metric witnesses and convention controls.
 Their precise roles and limits are recorded in the coverage index.
 
-The original Kasner companion, `exact-set-checks-v0.1.1.zip`, is included at
-`paper/exact-set-checks-v0.1.1.zip` in the repository and both source and
+The Kasner companion, `exact-set-checks-v1.0.2.zip`, is included at
+`paper/exact-set-checks-v1.0.2.zip` in the repository and both source and
 computation ZIPs.
 
 AI use is disclosed in the manuscript. The computations include code,

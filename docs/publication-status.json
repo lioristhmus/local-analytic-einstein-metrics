@@ -1,32 +1,17 @@
 {
-  "version": "1.0.1",
   "title": "Local analytic Einstein metrics from free curvature data in four dimensions",
-  "state": "PUBLISHED",
-  "github": {
-    "state": "PUBLISHED",
-    "url": "https://github.com/lioristhmus/local-analytic-einstein-metrics",
-    "release_url": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1",
-    "tag": "v1.0.1",
-    "release_commit": "d7f77a72b96a37acf9fae99007db06f4071d34e8"
-  },
-  "zenodo": {
-    "state": "PUBLISHED",
-    "record_id": 24318760,
-    "doi": "10.5281/zenodo.24318760",
-    "concept_doi": "10.5281/zenodo.24318759",
-    "url": "https://zenodo.org/records/24318760"
-  },
-  "orcid": {
-    "state": "ADDED",
-    "author_orcid": "0009-0004-7908-9876",
-    "url": "https://orcid.org/0009-0004-7908-9876",
-    "doi": "10.5281/zenodo.24318760",
-    "visibility": "Everyone"
-  },
-  "computations": {
-    "scope": "Finite exact checks and floating-point diagnostics",
-    "primary_records": 14,
-    "independent_groups": 1
-  },
-  "verified_at": "2026-11-17T16:36:21.842088+00:00"
+  "package_version": "1.0.2",
+  "repository": "https://github.com/lioristhmus/local-analytic-einstein-metrics",
+  "author_orcid": "https://orcid.org/0009-0004-7908-9876",
+  "all_versions_doi": "10.5281/zenodo.24318759",
+  "published_versions": {
+    "1.0": {
+      "github": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0"
+    },
+    "1.0.1": {
+      "github": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1",
+      "zenodo": "https://zenodo.org/records/24318760",
+      "doi": "10.5281/zenodo.24318760"
+    }
+  }
 }

@@ -1,14 +1,13 @@
 cff-version: 1.2.0
-message: "Please cite the paper using the preferred citation below. The preferred citation identifies the Zenodo preprint."
+message: "Please cite the paper using the preferred citation below."
 title: "Local analytic Einstein metrics from free curvature data in four dimensions"
 type: dataset
 authors:
   - given-names: Lior
     family-names: Isthmus
     orcid: "https://orcid.org/0009-0004-7908-9876"
-version: "1.0.1"
-doi: "10.5281/zenodo.24318760"
-url: "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1"
+version: "1.0.2"
+url: "https://github.com/lioristhmus/local-analytic-einstein-metrics"
 license:
   - CC-BY-4.0
   - Apache-2.0
@@ -26,6 +25,5 @@ preferred-citation:
       family-names: Isthmus
       orcid: "https://orcid.org/0009-0004-7908-9876"
   year: 2026
-  version: "1.0.1"
-  doi: "10.5281/zenodo.24318760"
-  url: "https://doi.org/10.5281/zenodo.24318760"
+  version: "1.0.2"
+  url: "https://github.com/lioristhmus/local-analytic-einstein-metrics"

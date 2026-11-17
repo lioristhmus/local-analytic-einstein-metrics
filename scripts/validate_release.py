@@ -7,7 +7,7 @@ import zipfile
 root = Path(__file__).resolve().parents[1]
 digest = lambda data: hashlib.sha256(data).hexdigest()
 manifest = json.loads((root / "MANIFEST.json").read_text())
-assert manifest["version"] == "1.0.1"
+assert manifest["version"] == "1.0.2"
 actual = {
     str(p.relative_to(root)) for p in root.rglob("*") if p.is_file()
     and not any(part in {".git", "build", "__pycache__"} for part in p.relative_to(root).parts)
@@ -39,9 +39,9 @@ for order, expected_components in [(1, 96), (3, 520)]:
     assert sum(entry["components"] for entry in result["orders"]) == expected_components
     checked_components[str(order)] = expected_components
 
-archive = root / "paper/exact-set-checks-v0.1.1.zip"
+archive = root / "paper/exact-set-checks-v1.0.2.zip"
 with zipfile.ZipFile(archive) as bundle:
-    prefix = "exact-set-checks-v0.1.1/"
+    prefix = "exact-set-checks-v1.0.2/"
     saved = json.loads(bundle.read(prefix + "SHA256SUMS.json"))
     assert set(bundle.namelist()) == {prefix + name for name in saved} | {prefix + "SHA256SUMS.json"}
     for name, expected in saved.items():
@@ -50,16 +50,19 @@ with zipfile.ZipFile(archive) as bundle:
             assert bundle.read(prefix + name) == (root / "computations/code" / name).read_bytes()
         elif name.endswith("-result.json"):
             assert bundle.read(prefix + name) == (root / "computations/results" / name).read_bytes()
+        elif name in {"input.json", "environment.json"}:
+            assert bundle.read(prefix + name) == (root / "computations" / name).read_bytes()
+    assert {"LICENSE", "LICENSES.md", "LICENSE-APACHE-2.0", "LICENSE-CC-BY-4.0.md", "CITATION.cff"} <= set(saved)
 
 status = json.loads((root / "docs/publication-status.json").read_text())
-assert status["version"] == "1.0.1"
+assert status["package_version"] == "1.0.2"
 report = {"status": "PASS", "manifest_files": len(actual),
           "saved_components_by_max_order": checked_components,
-          "original_companion_archive": "PASS", "mathematical_jobs_started": 0,
+          "companion_archive": "PASS", "mathematical_jobs_started": 0,
           "scope": "File integrity and saved-result checks, not a rerun or general proof."}
 print(json.dumps(report, indent=2))
 
-# File-only validation of the unchanged upstream execution evidence and new map.
+# File-only validation of source-bound execution evidence and the paper map.
 import subprocess
 import sys
 upstream = root / 'computations/precursor'
@@ -76,8 +79,17 @@ assert len(coverage['excluded_primary_records'])==14
 assert coverage['current_source_sha256']==digest((root/'paper/manuscript.md').read_bytes())
 origin = json.loads((root/'computations/UPSTREAM.json').read_text())
 assert len(origin['files'])==85
+updates = origin.get('documentation_updates', {})
+assert set(updates) <= set(origin['files'])
 for rel, value in origin['files'].items():
-    assert digest((upstream/rel).read_bytes())==value, rel
-print(json.dumps({'expanded_precursor_validation':'PASS','relevant_primary_records':14,
-                  'independent_evidence_groups':1,'unchanged_upstream_files':85,
+    expected = value
+    if rel in updates:
+        assert Path(rel).suffix in {'.md', '.cff', '.txt'} or rel == 'licenses/LICENSE-APACHE-2.0', rel
+        assert updates[rel]['original_sha256'] == value, rel
+        expected = updates[rel]['sha256']
+        assert expected != value, rel
+    assert digest((upstream/rel).read_bytes()) == expected, rel
+print(json.dumps({'precursor_validation':'PASS','relevant_primary_records':14,
+                  'independent_evidence_groups':1,'unchanged_upstream_files':85-len(updates),
+                  'documentation_updates':len(updates),
                   'mathematical_jobs_started':0},indent=2))

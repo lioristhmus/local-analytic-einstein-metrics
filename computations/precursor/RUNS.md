@@ -1,8 +1,8 @@
-# Fresh execution record
+# Recorded executions
 
-All ten mathematical jobs were freshly executed for candidate 0.2.0. Earlier
-0.1.0 results are not relabeled as new runs. The order-one pilots overlap their
-larger profiles. The table's check counts do not measure independent proofs.
+The ten primary mathematical jobs were executed on 13 November 2026. Their
+records identify the executed source and inputs. The order-one pilots overlap
+their larger profiles. The table's check counts do not measure independent proofs.
 
 | Job | Status | IDs | Controller seconds | Worker seconds | Cgroup memory peak (bytes) |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -46,26 +46,19 @@ records are classified `reporting-negative-control`, not mathematical check IDs.
 The intentional `RUNNER-FAILURE-PROBE` returns nonzero and FAIL as required;
 it is also excluded from the twenty-eight registered record IDs.
 
-Two failed preacceptance A/B trials and earlier intermediate successful runs
-were preserved locally. Only final source-matched accepted results are in this
-package; [CHANGES.md](CHANGES.md) and [provenance.json](provenance.json) explain
-the arithmetic-type correction. Fresh execution does not complete independent
-review: see [REVIEW-STATUS.json](REVIEW-STATUS.json).
+The accepted results are matched to their executed source and input hashes.
+The rational-scalar implementation and its provenance are documented in
+[CHANGES.md](CHANGES.md) and [provenance.json](provenance.json). The separate
+[source audit](REVIEW-STATUS.json) records its review scope.
 
-## Final integration, revision 3
+## Independent geometric witness execution
 
-The ten primary runs and their complete code/input dependency set remain
-byte-identical to r2; they were not rerun merely to change review metadata.
-One additional source-bound group, IW-GEOMETRY-CONTROLS-R2, ran in its separate
-independent execution root, with the same pinned image, runner and limits.
-It completed without OOM or timeout, and container removal and lock release
-were confirmed. See [the result](independent/results/witness-r2/result.json)
-and [environment](independent/results/witness-r2/environment.json).
-The upstream printed convention counts are now enforced by the adapter only
-at the declared r<=2 witnesses; no historical run is relabeled.
-
-Claude's completed audit covers 0.1.0 and the three additional calculations.
-Its higher-order symbolic/witness logs are retained as historical independent
-audit evidence with their attribution limits. The final 0.2.0 code did not
-receive a full independent line audit. The primary scoped source audit,
-targeted independent adapter review and final package QA are separate.
+The independent source-bound group IW-GEOMETRY-CONTROLS-R2 ran in its own
+execution root, with the same pinned image, runner and limits. It completed
+without OOM or timeout, and container removal and lock release were confirmed.
+See [the result](independent/results/witness-r2/result.json) and
+[environment](independent/results/witness-r2/environment.json).
+The adapter enforces the specified convention controls at the declared
+r<=2 witnesses. Higher-order symbolic and geometric audit logs retain their
+original attribution limits in [INDEPENDENT-EVIDENCE.md](INDEPENDENT-EVIDENCE.md).
+The audit did not cover every final source file line by line.

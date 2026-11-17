@@ -3,7 +3,7 @@
   "tag": "paper-v1.1",
   "commit": "6ed092aba2492003e4c25e21c68aa6b2cab04335",
   "path": "computations",
-  "source_status": "All 85 tracked files match the fixed tag byte for byte.",
+  "source_status": "Computational code, inputs and saved records match the source tag; documentation updates are identified separately.",
   "files": {
     "BASELINE.json": "d700e764ca6d6da4c3c2dbdc69b3c44c5d0bc31d640d22328589a9857d5e7b3d",
     "CHANGES.md": "fd8f6fecc0073bdb7ec39711a708e4762b67bb29d447c54faeb672f7d8ba51b7",
@@ -90,5 +90,47 @@
     "results/schwarzschild/environment.json": "8202845809924c0e3ca0fba670e6007ce8091fd1b2c71bbd4cca26c6c8a9b4ec",
     "results/schwarzschild/log.jsonl": "31aa4692d3ab3fbae4d34d857080aed6896880d2ff286ccb08d1c11d45faac84",
     "results/schwarzschild/result.json": "14352433fe50707f9611ee7331e5d37e00815f4868cdfcded61b236e31946025"
+  },
+  "documentation_updates": {
+    "CHANGES.md": {
+      "original_sha256": "fd8f6fecc0073bdb7ec39711a708e4762b67bb29d447c54faeb672f7d8ba51b7",
+      "sha256": "ac8b299129bba364680337160c7f52b9a8728c922959486dc88fa972ff5fb90f"
+    },
+    "CITATION.cff": {
+      "original_sha256": "ce09dc69844ea92b25988fb854a948adae0b0262e96f330b4fd30cd2bc241938",
+      "sha256": "a83d0b23ce0e8957dcd2d403a89de1e8cc796563edf68d0ce61f003625172b25"
+    },
+    "CONVENTIONS.md": {
+      "original_sha256": "3d3c8f652ef1bd0aab00d06f092cf27dff8ec78e58190b73e455d0491ca5c535",
+      "sha256": "8c83fbffa814c2283659162552a2d2d3db4ca6f808a228f8b884f385624d6a0b"
+    },
+    "INDEPENDENT-EVIDENCE.md": {
+      "original_sha256": "9e9f0aee76883d7066d776e7c120733be2d310375663e07956b0756bedd36a69",
+      "sha256": "db1c25a6867fb2ec48522fd36a7a5f7e27a8874a19d324f4324ab44809dd21b6"
+    },
+    "LICENSES.md": {
+      "original_sha256": "1ae768cf464311b584af92b86c281c6f2134e6d9aa8b1a7f37f0596dc5af723c",
+      "sha256": "0297dfbacd07fd34238e1fcfc69a6ae5d259bf4ed7cb3afe936fd273b91176d6"
+    },
+    "README.md": {
+      "original_sha256": "e8f7234d86a71f75b29ac34746218b03fb2543fbc8faa4ff6a3d4001fe1720bf",
+      "sha256": "39fe4895164e2aa95460169522ac65897c9a258de6dff0de287733f3a49c49b4"
+    },
+    "RECONCILIATION.md": {
+      "original_sha256": "b7941ba2485a2d311ab40294d8d0ffd09c97ca8dc91e0e5add388e649c8d0186",
+      "sha256": "bfa95e76ae72bb870df98bd08cca5c74667982c1614c2c067f3560547477643a"
+    },
+    "RUNS.md": {
+      "original_sha256": "b862468a4aac40f287d5ecde5fdc08d579a1d08afafaaeacb160ff9cccf199b0",
+      "sha256": "9f04fe330ee18993ebc85604ffbb7212b34b48ce1a4c0a16842e9f9f113307f8"
+    },
+    "SHA256SUMS.txt": {
+      "original_sha256": "d60033f059c058ce4b15fd6bb4cae98c61cd70ab21e95ed0b49a249b769da480",
+      "sha256": "f4a5b3baf9ad5e91f15c8162f0c5c5e2a1daa8d727156b0ff77ed4f022504ed1"
+    },
+    "licenses/LICENSE-APACHE-2.0": {
+      "original_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sha256": "922f98e9325ebafbd289dd46a9d0fba712177134133b1658b28a7efbc049106e"
+    }
   }
 }

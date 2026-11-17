@@ -4,7 +4,7 @@ author: 'Lior Isthmus\textsuperscript{1}'
 short-author: "Lior Isthmus"
 date: "2026-11-18"
 language: en
-version: "1.0.1"
+version: "1.0.2"
 bibliography: references.bib
 ---
 
@@ -1449,10 +1449,10 @@ $$
  \qquad (p_1,p_2,p_3)=(-2/7,3/7,6/7).
 $$
 
-In its orthonormal frame, compute the ordered curvature derivatives through order four at $t=1$ and project to the two chiral records. Evaluate $Q_r=\nabla U_r-iU_{r+1}$ and $\mathsf H Q_{r-1}$ by covariant differentiation of these geometric records, and $K_r$ by curvature action. Applying the Spencer inverse to the right side of [@eq:es-recursion] agrees with $Q_r$ in all 520 components for $1\le r\le3$, with zero fully symmetric projection. These are exact equalities over $\mathbb Q(\mathrm i)$ after a common spin-basis rescaling. The companion archive, [`exact-set-checks-v0.1.1.zip`](exact-set-checks-v0.1.1.zip), is included with the source and computational supplements and supplies these calculations, their exact output and checksums. Its SageMath 10.9 entry point is `check_kasner_recursion.py --max-r 3`; the accompanying README specifies the spin-basis rescaling, curvature convention and isolated execution environment.
+In its orthonormal frame, compute the ordered curvature derivatives through order four at $t=1$ and project to the two chiral records. Evaluate $Q_r=\nabla U_r-iU_{r+1}$ and $\mathsf H Q_{r-1}$ by covariant differentiation of these geometric records, and $K_r$ by curvature action. Applying the Spencer inverse to the right side of [@eq:es-recursion] agrees with $Q_r$ in all 520 components for $1\le r\le3$, with zero fully symmetric projection. These are exact equalities over $\mathbb Q(\mathrm i)$ after a common spin-basis rescaling. The companion archive, [`exact-set-checks-v1.0.2.zip`](https://github.com/lioristhmus/local-analytic-einstein-metrics/raw/refs/tags/v1.0.2/paper/exact-set-checks-v1.0.2.zip), is included with the source and computational supplements and supplies these calculations, their exact output and checksums. Its SageMath 10.9 entry point is `check_kasner_recursion.py --max-r 3`; the accompanying README specifies the spin-basis rescaling, curvature convention and isolated execution environment.
 
 <div id="sec:es-ai-use"></div>
 
 ## AI-use disclosure {.unnumbered .unlisted}
 
-AI systems were used extensively throughout this research and the preparation of this manuscript. The models used were GPT-6 Pro, gpt-6.1-sol (xhigh), and Claude Opus 5.5 (xhigh). Selected finite algebraic identities and explicit metric examples were checked using SageMath and independent Python implementations; the code, inputs, computational environments and recorded results are provided in the [computational supplement](https://github.com/lioristhmus/local-analytic-einstein-metrics/tree/v1.0.1/computations).
+AI systems were used extensively throughout this research and the preparation of this manuscript. The models used were GPT-6 Pro, gpt-6.1-sol (xhigh), and Claude Opus 5.5 (xhigh). Selected finite algebraic identities and explicit metric examples were checked using SageMath and independent Python implementations; the code, inputs, computational environments and recorded results are provided in the [computational supplement](https://github.com/lioristhmus/local-analytic-einstein-metrics/tree/v1.0.2/computations).

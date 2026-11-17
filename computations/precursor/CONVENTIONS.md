@@ -143,4 +143,4 @@ enforce the new controls. See [INDEPENDENT-EVIDENCE.md](INDEPENDENT-EVIDENCE.md)
 B-VALUES retains raw PASS solely as a completeness/finiteness gate on observed
 float64 data. It is excluded from the count of mathematical inequalities or
 exact paper checks. No change to polarization or norm conventions is made
-in revision 3; the 17/32 B-CROSS and one cubic norm comparison remain as above.
+with the 17/32 B-CROSS and one cubic norm comparison described above.

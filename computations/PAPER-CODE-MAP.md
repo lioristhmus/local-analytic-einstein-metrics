@@ -20,7 +20,7 @@ replace that proposition's realization and polynomial-continuation proof.
 
 No Schwarzschild optical, Adamo comparison, two-wave Ricci-repair or matrix-
 Schwarzian record is claimed as a theorem check of this extracted paper.
-Those files remain available within the unchanged upstream package.
+Those files remain available within the upstream computational package.
 
 Still outside computational coverage: the general differentiated Bianchi
 completion, atomic diagram mass and all-order inverse-order gain, analytic
