@@ -1,15 +1,21 @@
 # Verification scope
 
-The release is derived from the completed editorial v0.1.12. The PDF and
-TeX are byte-identical to that version; the Markdown changes only its
-version metadata to 1.0. All 977 mathematical segments, 113 displays,
-24 formal statements, 156 generated labels and 104 equation numbers are
-retained. The 39-page PDF has 112 resolved internal named links.
+The release derives from editorial v0.1.12, with copyediting, bibliographic
+and layout corrections following prepublication review. The mathematical
+content, assumptions, notation and theorem numbers are unchanged. Equation
+IDs, theorem headings and the order of mathematical expressions are retained.
+The only punctuation change within a mathematical expression replaces a period
+between the two formulas in the second low-order correction with a comma.
 
-The preceding editorial checks included all-page rendered overview and
-readable inspection of the introduction, page 9, tables and final page.
-They found no clipping, missing glyphs or unresolved references. These
-checks establish artifact fidelity, not an independent proof audit.
+Revision 3 retains 977 mathematical segments, 113 displays, 24 formal statement
+headings, 156 generated labels and 104 equation numbers. The 39-page PDF has
+112 resolved internal named links.
+
+The preparation checks compare the Markdown, exported TeX, rendered PDF and
+release archives. They include an all-page overview, readable inspection of
+changed pages, reference resolution and file hashes. These checks establish
+source and artifact fidelity. The retained finite results are not rerun as
+part of this preparation.
 
 The finite exact results are described in `../computations/README.md`.
 `scripts/validate_release.py` checks their saved PASS status, resource

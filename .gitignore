@@ -10,3 +10,8 @@ build/
 *.fdb_latexmk
 # Preserve the inherited, explicitly classified historical mathematical logs.
 !computations/precursor/independent/prior-audit/*.log
+
+# Local project memory is not part of release artifacts.
+/.vokram/
+/.vokram.local.json
+/.vokram.paused

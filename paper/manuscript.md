@@ -2,7 +2,7 @@
 title: "Local analytic Einstein metrics from free curvature data in four dimensions"
 author: 'Lior Isthmus\textsuperscript{1}'
 short-author: "Lior Isthmus"
-date: "2026-11-17"
+date: "2026-11-18"
 language: en
 version: "1.0"
 bibliography: references.bib
@@ -68,9 +68,9 @@ Penrose introduced exact sets and their constraint-free null-cone interpretation
 
 Related realization problems prescribe algebraic curvature at a point, compatible lists of curvature derivatives, or an analytic curvature map. Gasqui proves formal integrability and involutivity of the Einstein system and realizes prescribed algebraic Einstein curvature at a point, with the extension to arbitrary signatures stated after his Theorem 4.2 [@Gasqui1982, §4]. Kowalski and Belger construct analytic metrics in normal coordinates from compatible sequences of all covariant curvature derivatives satisfying growth inequalities [@KowalskiBelger1994]. The classical normal-jet correspondence expresses the normal metric jet by universal curvature polynomials; a coordinate-free formulation is given by @Jentsch2026 [Theorems 1 and 3]. Basurto-Arzate realizes an analytic curvature map satisfying a radial structure consistency identity by a torsion-free connection [@BasurtoArzate2026, Theorem 1]. Here the input is the two free chiral sequences: completion and convergent record flows supply the analytic radial curvature used in the Jacobi construction.
 
-Friedrich proves a factorial null-data criterion at spatial infinity for static vacuum solutions with a fixed nonzero ADM mass [@Friedrich2007, Theorem 1.1]. Aceña extends this reconstruction to asymptotically flat stationary vacuum solutions with nonzero ADM mass [@Acena2009, Theorem 1.1]. His two null-data sequences are the symmetric trace-free derivatives of a conformally rescaled scalar potential $\phi_S$ and of the trace-free Ricci tensor of the three-dimensional conformal quotient metric. Aceña subsequently obtains a null-data characterization for three-dimensional negative-definite geometry coupled to scalar fields satisfying the coefficient conditions of his system [@Acena2010, Theorem 1.1 and §7].
+Friedrich proves a factorial null-data criterion at spatial infinity for static vacuum solutions with a fixed nonzero ADM mass [@Friedrich2007, Theorem 1.1 and Lemma 3.2]. Aceña extends this reconstruction to asymptotically flat stationary vacuum solutions with nonzero mass monopole [@Acena2009, Theorem 1.1]. His two null-data sequences are the symmetric trace-free derivatives of a conformally rescaled scalar potential $\phi_S$ and of the trace-free Ricci tensor of the three-dimensional conformal quotient metric. Aceña subsequently obtains a null-data characterization for three-dimensional negative-definite geometry coupled to scalar fields satisfying the coefficient conditions of his system [@Acena2010, Theorem 1.1 and §7].
 
-In four dimensions, Friedrich identifies the corresponding symmetric vertex spinors as null data for the rescaled conformal Weyl field, determines the formal conformal-vacuum jets from them, and constructs smooth fields satisfying the equations to all orders at the vertex [@Friedrich2013, §5.1, Lemma 6.1 and Proposition 8.1]. He also explains in §1 how the analysis simplifies for a finite cone with a regular vacuum vertex. Chruściel and Paetz prove existence and uniqueness of smooth vacuum space-times from freely prescribed cone-smooth radiation data at past null infinity [@ChruscielPaetz2013, Theorem 1.1]. The present theorem realizes two independent chiral Weyl records at a regular point by a holomorphic Einstein metric with arbitrary numerical $\Lambda$, with factorial record estimates and uniform holomorphic dependence.
+In four dimensions, Friedrich identifies the corresponding symmetric vertex spinors as null data for the rescaled conformal Weyl field, determines the formal conformal-vacuum jets from them, and constructs smooth fields satisfying the equations to all orders at the vertex [@Friedrich2013, §5.1, Lemma 6.1 and Proposition 8.1]. He also remarks in §1 that the analysis simplifies for a finite cone with a regular vacuum vertex. Chruściel and Paetz prove existence and uniqueness of smooth vacuum space-times from freely prescribed cone-smooth radiation data at past null infinity [@ChruscielPaetz2013, Theorem 1.1]. The present theorem realizes two independent chiral Weyl records at a regular point by a holomorphic Einstein metric with arbitrary numerical $\Lambda$, with factorial record estimates and uniform holomorphic dependence.
 
 Sections 2–4 establish the record spaces, universal completion and normalized horizontal recursion. Section 5 proves the coefficient estimate, §6 integrates the record fields, and §7 constructs the normal Einstein metric by the radial Jacobi equation. Section 8 gives the point and spin comparisons and the Lorentz real form. Appendix A proves finite-prefix realizability, and Appendix B records low-order forms of the recursion.
 
@@ -334,7 +334,7 @@ $$
  B^{[d]}_{r,\mathbf j}(a;X_{j_1},\ldots,X_{j_d}).
 $$ {#eq:es-ordered-expansion}
 
-We first estimate coefficients with fixed input and output chiralities; they are grouped at the end of §5.3. Recursion [@eq:es-recursion] fixes the ordered expansion: differentiation replaces an input at its existing position, and an insertion preserves the order of its own inputs. This convention determines coefficients of the commutative polynomial without a symmetric polarization or a factor $1/d!$.
+We first estimate coefficients with fixed input and output chiralities; they are grouped at the end of §5.3. Recursion ([-@eq:es-recursion]) fixes the ordered expansion: differentiation replaces an input at its existing position, and an insertion preserves the order of its own inputs. This convention determines coefficients of the commutative polynomial without a symmetric polarization or a factor $1/d!$.
 
 <div id="sec:es-contractions"></div>
 
@@ -556,7 +556,7 @@ The preceding reduction bounds composition uniformly. To retain the inverse-orde
 | $-$ | $B=+-$ | primed | $t+4$ |
 | $-$ | $C=--$ | unprimed | $t$ |
 
-There is no inner $++$ block, and $Q_0=0$. Hence $t\ge1$ and $p\ge t$. For a double-lower block the table selects the unprimed factor once. In the chosen factor the inserted output is $(\iota_pf)_c$. Formula [@eq:es-normalized-product] shows that contraction with $u^c$ kills the unhit term. Each hit opens an incident bare contraction of the outer atom. There are at most two such contractions, and Lemma 5.1 gives coefficient $1/p$ for each, including the normalization on its partner input. Before any further slot distribution, [@eq:es-partner-normalization] puts the partner in normalized form with one fewer selected slot. The subsequent assignment weights therefore use these updated residual valences and again sum to one. Thus the opened coefficient sum, before the bounded wire reductions, is at most $2/p$ for a pair of bare atoms.
+There is no inner $++$ block, and $Q_0=0$. Hence $t\ge1$ and $p\ge t$. For a double-lower block the table selects the unprimed factor once. In the chosen factor the inserted output is $(\iota_pf)_c$. Formula ([-@eq:es-normalized-product]) shows that contraction with $u^c$ kills the unhit term. Each hit opens an incident bare contraction of the outer atom. There are at most two such contractions, and Lemma 5.1 gives coefficient $1/p$ for each, including the normalization on its partner input. Before any further slot distribution, [@eq:es-partner-normalization] puts the partner in normalized form with one fewer selected slot. The subsequent assignment weights therefore use these updated residual valences and again sum to one. Thus the opened coefficient sum, before the bounded wire reductions, is at most $2/p$ for a pair of bare atoms.
 
 It remains to check that the final projection retains an inverse-order factor. The outer blocks have the following signs in the chosen factor:
 
@@ -1287,7 +1287,7 @@ $$
  \end{aligned}
 $$ {#eq:es-finite-conformal-identities}
 
-Equations [@eq:es-finite-constraints] imply the constraint equations
+Equations ([-@eq:es-finite-constraints]) imply the constraint equations
 
 $$
  R(\gamma)+(\operatorname{tr}_\gamma K)^2-|K|_\gamma^2
@@ -1407,7 +1407,7 @@ This construction uses finitely many analytic equations and finite-dimensional p
 
 ## Appendix B. The first nonlinear corrections
 
-The first three corrections show how linear shifts lead to the first nonlinear insertion. Recursion [@eq:es-recursion] gives finite tensor formulas at each fixed order, using the same compatible Spencer inverse $M_rJ_r^*$ as in §4. For a polynomial coefficient $F_b$ let $D_jF_b[Z]$ mean its differential with respect to the two chiral components of $U_j$; the scalar $\Lambda$ is held fixed. The two outer derivative arguments in the following formulas are $a,b$.
+The first three corrections show how linear shifts lead to the first nonlinear insertion. Recursion ([-@eq:es-recursion]) gives finite tensor formulas at each fixed order, using the same compatible Spencer inverse $M_rJ_r^*$ as in §4. For a polynomial coefficient $F_b$ let $D_jF_b[Z]$ mean its differential with respect to the two chiral components of $U_j$; the scalar $\Lambda$ is held fixed. The two outer derivative arguments in the following formulas are $a,b$.
 
 Since $Q_0=0$, the first correction is
 
@@ -1419,7 +1419,7 @@ $$ {#eq:es-q-one}
 It is quadratic in $(U_0,\Lambda)$. Define the two-argument tensor
 
 $$
- (T_2)_{a,b}=D_0Q_{1,b}[i_aU_1].
+ (T_2)_{a,b}=D_0Q_{1,b}[i_aU_1],
  \qquad Q_2=M_2J_2^*(\tau T_2-K_2),
  \qquad K_2(a,b)=\mathsf V_{R_U(a,b)}U_1.
 $$ {#eq:es-q-two}
@@ -1449,7 +1449,7 @@ $$
  \qquad (p_1,p_2,p_3)=(-2/7,3/7,6/7).
 $$
 
-In its orthonormal frame, compute the ordered curvature derivatives through order four at $t=1$ and project to the two chiral records. Evaluate $Q_r=\nabla U_r-iU_{r+1}$ and $\mathsf H Q_{r-1}$ by covariant differentiation of these geometric records, and $K_r$ by curvature action. Applying the Spencer inverse to the right side of [@eq:es-recursion] agrees with $Q_r$ in all 520 components for $1\le r\le3$, with zero fully symmetric projection. These are exact equalities over $\mathbb Q(\mathrm i)$ after a common spin-basis rescaling. The [companion archive](exact-set-checks-v0.1.1.zip) supplies these calculations, their exact output and checksums. Its SageMath 10.9 entry point is `check_kasner_recursion.py --max-r 3`; the accompanying README specifies the spin-basis rescaling, curvature convention and isolated execution environment.
+In its orthonormal frame, compute the ordered curvature derivatives through order four at $t=1$ and project to the two chiral records. Evaluate $Q_r=\nabla U_r-iU_{r+1}$ and $\mathsf H Q_{r-1}$ by covariant differentiation of these geometric records, and $K_r$ by curvature action. Applying the Spencer inverse to the right side of [@eq:es-recursion] agrees with $Q_r$ in all 520 components for $1\le r\le3$, with zero fully symmetric projection. These are exact equalities over $\mathbb Q(\mathrm i)$ after a common spin-basis rescaling. The companion archive, [`exact-set-checks-v0.1.1.zip`](exact-set-checks-v0.1.1.zip), is included with the source and computational supplements and supplies these calculations, their exact output and checksums. Its SageMath 10.9 entry point is `check_kasner_recursion.py --max-r 3`; the accompanying README specifies the spin-basis rescaling, curvature convention and isolated execution environment.
 
 <div id="sec:es-ai-use"></div>
 

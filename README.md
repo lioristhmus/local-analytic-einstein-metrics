@@ -14,14 +14,16 @@ Jacobi realization, holomorphic dependence and the Lorentz real form.
 - [Build instructions](docs/BUILD.md), [verification](docs/VERIFICATION.md) and [release notes](docs/RELEASE.md)
 - [Citation](CITATION.cff) and [licenses](LICENSES.md)
 
-This is a local release preparation. GitHub publication, Zenodo DOI creation
-and ORCID registration have not taken place. The status is recorded in
-[publication-status.json](docs/publication-status.json). No Hexagon submission
+At the preparation of this snapshot (2026-11-18), GitHub publication,
+Zenodo DOI creation and ORCID registration had not yet taken place.
+[publication-status.json](docs/publication-status.json) records that snapshot;
+the main branch will carry subsequent publication links. No Hexagon submission
 is planned for this paper.
 
-The manuscript is the completed reading version derived from editorial
-v0.1.12. Its PDF and TeX are unchanged; only the Markdown version metadata
-changes to 1.0. The projective twistor paper cited in the introduction is a
+The manuscript derives from the completed reading version, editorial v0.1.12.
+This v1.0 preparation incorporates copyediting, bibliographic and layout
+corrections following prepublication review; its mathematical content,
+assumptions, notation and theorem numbers are unchanged. The projective twistor paper cited in the introduction is a
 separate precursor, not an earlier version of this deposit.
 
 ## Verify the supplied files
@@ -37,6 +39,16 @@ finite-basis and polynomial free-record checks through order four, independent
 metric witnesses with convention controls through order two, and separately
 classified float64 diagnostics through order eight. The all-order estimates and convergence arguments are the
 proofs in the paper.
+
+The Kasner checks compare geometric curvature derivatives with the Spencer
+recursion. The AB-* records test the polynomial free-record implementation;
+the IW-* group supplies independent metric witnesses and convention controls.
+Their precise roles and limits are recorded in the coverage index.
+
+The original Kasner companion, `exact-set-checks-v0.1.1.zip`, is included at
+`paper/exact-set-checks-v0.1.1.zip` in the repository and both source and
+computation ZIPs. Its internal README retains the earlier working title and
+version. The expanded evidence is documented in `computations/README.md`.
 
 AI use is disclosed in the manuscript. The computations include code,
 specified inputs, recorded environment and exact outputs.

@@ -18,5 +18,6 @@ change pagination or PDF bytes.
 The Markdown was exported with the maintained studio standard Pandoc/AMS
 profile. The export pipeline is not vendored here. Its scoped output-only
 adjustments center three unbreakable tables and use natural page-bottom
-spacing. For a portable rebuild of this release, use the supplied TeX.
+spacing, and put subsection 5.3 on its own line before the theorem
+heading. For a portable rebuild of this release, use the supplied TeX.
 Regenerating TeX from Markdown with a different profile may change layout.

@@ -213,8 +213,9 @@
 \title{Local analytic Einstein metrics from free curvature data in four
 dimensions}
 \author{Lior Isthmus\textsuperscript{1}}
-\date{2026-11-17}
+\date{2026-11-18}
 
+\usepackage{needspace}
 \begin{document}
 \raggedbottom
 \begin{abstract}
@@ -379,22 +380,22 @@ Jacobi construction.
 
 Friedrich proves a factorial null-data criterion at spatial infinity for
 static vacuum solutions with a fixed nonzero ADM mass (Friedrich 2007,
-Theorem 1.1). Aceña extends this reconstruction to asymptotically flat
-stationary vacuum solutions with nonzero ADM mass (Aceña 2009, Theorem
-1.1). His two null-data sequences are the symmetric trace-free
-derivatives of a conformally rescaled scalar potential \(\phi_S\) and of
-the trace-free Ricci tensor of the three-dimensional conformal quotient
-metric. Aceña subsequently obtains a null-data characterization for
-three-dimensional negative-definite geometry coupled to scalar fields
-satisfying the coefficient conditions of his system (Aceña 2010, Theorem
-1.1 and §7).
+Theorem 1.1 and Lemma 3.2). Aceña extends this reconstruction to
+asymptotically flat stationary vacuum solutions with nonzero mass
+monopole (Aceña 2009, Theorem 1.1). His two null-data sequences are the
+symmetric trace-free derivatives of a conformally rescaled scalar
+potential \(\phi_S\) and of the trace-free Ricci tensor of the
+three-dimensional conformal quotient metric. Aceña subsequently obtains
+a null-data characterization for three-dimensional negative-definite
+geometry coupled to scalar fields satisfying the coefficient conditions
+of his system (Aceña 2010, Theorem 1.1 and §7).
 
 In four dimensions, Friedrich identifies the corresponding symmetric
 vertex spinors as null data for the rescaled conformal Weyl field,
 determines the formal conformal-vacuum jets from them, and constructs
 smooth fields satisfying the equations to all orders at the vertex
 (Friedrich 2013, sec. 5.1, Lemma 6.1 and Proposition 8.1). He also
-explains in §1 how the analysis simplifies for a finite cone with a
+remarks in §1 that the analysis simplifies for a finite cone with a
 regular vacuum vertex. Chruściel and Paetz prove existence and
 uniqueness of smooth vacuum space-times from freely prescribed
 cone-smooth radiation data at past null infinity (Chruściel and Paetz
@@ -796,7 +797,7 @@ position has order zero. The dilation weights in Proposition
  B^{[d]}_{r,\mathbf j}(a;X_{j_1},\ldots,X_{j_d}).
 }\end{equation} We first estimate coefficients with fixed input and
 output chiralities; they are grouped at the end of §5.3. Recursion
-eq.~\ref{eq:es-recursion} fixes the ordered expansion: differentiation
+(\ref{eq:es-recursion}) fixes the ordered expansion: differentiation
 replaces an input at its existing position, and an insertion preserves
 the order of its own inputs. This convention determines coefficients of
 the commutative polynomial without a symmetric polarization or a factor
@@ -1160,7 +1161,6 @@ or introduces an explicit alternating tensor.
 For a fixed assignment and target block, all alternating tensors come
 from the following operations:
 
-\par\addvspace{\medskipamount}
 \begin{center}
 \begin{tabular}{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
@@ -1188,7 +1188,6 @@ factor \\
 \bottomrule\noalign{}
 \end{tabular}
 \end{center}
-\par\addvspace{\medskipamount}
 
 The raw lower factors of the restored target atom are output data and
 are excluded from its stripped graph. There are at most ten internal
@@ -1223,7 +1222,6 @@ inverse-order factor, choose one lower spin factor of the inserted
 coefficient and track it through the final projection. The table lists
 all choices used in this argument:
 
-\par\addvspace{\medskipamount}
 \begin{center}
 \begin{tabular}{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
@@ -1250,12 +1248,11 @@ Degree \(p\) of its input
 \bottomrule\noalign{}
 \end{tabular}
 \end{center}
-\par\addvspace{\medskipamount}
 
 There is no inner \(++\) block, and \(Q_0=0\). Hence \(t\ge1\) and
 \(p\ge t\). For a double-lower block the table selects the unprimed
 factor once. In the chosen factor the inserted output is
-\((\iota_pf)_c\). Formula eq.~\ref{eq:es-normalized-product} shows that
+\((\iota_pf)_c\). Formula (\ref{eq:es-normalized-product}) shows that
 contraction with \(u^c\) kills the unhit term. Each hit opens an
 incident bare contraction of the outer atom. There are at most two such
 contractions, and Lemma 5.1 gives coefficient \(1/p\) for each,
@@ -1269,7 +1266,6 @@ wire reductions, is at most \(2/p\) for a pair of bare atoms.
 It remains to check that the final projection retains an inverse-order
 factor. The outer blocks have the following signs in the chosen factor:
 
-\par\addvspace{\medskipamount}
 \begin{center}
 \begin{tabular}{@{}llll@{}}
 \toprule\noalign{}
@@ -1280,7 +1276,6 @@ primed & upper & lower & lower \\
 \bottomrule\noalign{}
 \end{tabular}
 \end{center}
-\par\addvspace{\medskipamount}
 
 These rows apply to both outer chiralities. Suppose first that the outer
 sign is upper. Write its old output as \(B_a=\partial_ag/(q+1)\), where
@@ -1479,10 +1474,12 @@ Absorbing that sum gives one structural constant \(K\le K_0\) for the
 rescaled insertion bound \(K/(t+1)\). The arity induction below counts
 the eligible ordered positions.
 
+\Needspace{10\baselineskip}
 \protect\phantomsection\label{sec:es-ordered-coefficients}
 
 \subsubsection{5.3. The coefficient
 theorem}\label{the-coefficient-theorem}
+\leavevmode\par\nobreak
 
 \pandocstatementheading{\protect\phantomsection\label{thm:es-coefficients}Theorem 5.5.}
 
@@ -2311,7 +2308,7 @@ Substitution gives
  |K|_\gamma^2&=\phi^{-12}|T|_{\bar\gamma}^2,&
  \operatorname{tr}_\gamma K&=0.
  \end{aligned}
-}\end{equation} Equations eq.~\ref{eq:es-finite-constraints} imply the
+}\end{equation} Equations (\ref{eq:es-finite-constraints}) imply the
 constraint equations
 \begin{equation}\protect\phantomsection\label{eq:es-finite-solved-constraints}{
  R(\gamma)+(\operatorname{tr}_\gamma K)^2-|K|_\gamma^2
@@ -2487,7 +2484,7 @@ separately from the record-flow and Jacobi estimates.
 corrections}\label{appendix-b.-the-first-nonlinear-corrections}
 
 The first three corrections show how linear shifts lead to the first
-nonlinear insertion. Recursion eq.~\ref{eq:es-recursion} gives finite
+nonlinear insertion. Recursion (\ref{eq:es-recursion}) gives finite
 tensor formulas at each fixed order, using the same compatible Spencer
 inverse \(M_rJ_r^*\) as in §4. For a polynomial coefficient \(F_b\) let
 \(D_jF_b[Z]\) mean its differential with respect to the two chiral
@@ -2501,7 +2498,7 @@ Since \(Q_0=0\), the first correction is
 }\end{equation} It is quadratic in \((U_0,\Lambda)\). Define the
 two-argument tensor
 \begin{equation}\protect\phantomsection\label{eq:es-q-two}{\begin{gathered}
-(T_2)_{a,b}=D_0Q_{1,b}[i_aU_1]. \\
+(T_2)_{a,b}=D_0Q_{1,b}[i_aU_1], \\
 Q_2=M_2J_2^*(\tau T_2-K_2), \\
 K_2(a,b)=\mathsf V_{R_U(a,b)}U_1.
 \end{gathered}}\end{equation} Every term of \(Q_2\) has curvature degree two and total
@@ -2543,12 +2540,13 @@ curvature action. Applying the Spencer inverse to the right side of
 eq.~\ref{eq:es-recursion} agrees with \(Q_r\) in all 520 components for
 \(1\le r\le3\), with zero fully symmetric projection. These are exact
 equalities over \(\mathbb Q(\mathrm i)\) after a common spin-basis
-rescaling. The \href{exact-set-checks-v0.1.1.zip}{companion archive}
-supplies these calculations, their exact output and checksums. Its
-SageMath 10.9 entry point is
-\texttt{check\_kasner\_recursion.py\ -\/-max-r\ 3}; the accompanying
-README specifies the spin-basis rescaling, curvature convention and
-isolated execution environment.
+rescaling. The companion archive,
+\href{exact-set-checks-v0.1.1.zip}{\texttt{exact-set-checks-v0.1.1.zip}},
+is included with the source and computational supplements and supplies
+these calculations, their exact output and checksums. Its SageMath 10.9
+entry point is \texttt{check\_kasner\_recursion.py\ -\/-max-r\ 3}; the
+accompanying README specifies the spin-basis rescaling, curvature
+convention and isolated execution environment.
 
 \protect\phantomsection\label{sec:es-ai-use}
 
@@ -2576,7 +2574,7 @@ Gravity} 27 (15): 155006.
 \url{https://doi.org/10.1088/0264-9381/27/15/155006}.
 
 \bibitem[\citeproctext]{ref-AndersonTorre1996}
-Anderson, Ian M., and Charles G. Torre. 1996. {``Classification of
+Anderson, Ian M., and Charles G. Torre. 1996. {``Classification of Local
 Generalized Symmetries for the Vacuum {Einstein} Equations.''}
 \emph{Communications in Mathematical Physics} 176 (3): 479--539.
 \url{https://doi.org/10.1007/BF02099248}.
@@ -2603,7 +2601,7 @@ Infinity.''} \emph{Communications in Mathematical Physics} 324 (1):
 263--300. \url{https://doi.org/10.1007/s00220-013-1803-1}.
 
 \bibitem[\citeproctext]{ref-Gasqui1982}
-Gasqui, Jacques. 1982. {``Sur La r{é}solubilit{é} Locale Des {é}quations
+Gasqui, Jacques. 1982. {``Sur la r{é}solubilit{é} locale des {é}quations
 d'{Einstein}.''} \emph{Compositio Mathematica} 47 (1): 43--69.
 \url{https://www.numdam.org/item/CM_1982__47_1_43_0/}.
 
