@@ -1,7 +1,7 @@
-# Paper-to-code map: expanded v1.0 preparation
+# Paper-to-code map
 
-The inherited mathematical files and execution records are unchanged.
-`COVERAGE.json` fixes selected IDs, exclusions and formula comparisons.
+[COVERAGE.json](COVERAGE.json) identifies selected records, exclusions and
+formula comparisons; [UPSTREAM.json](UPSTREAM.json) records their source.
 
 | Current paper | Precursor evidence | Precise coverage |
 | --- | --- | --- |

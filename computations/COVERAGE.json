@@ -1,6 +1,5 @@
 {
   "version": "1.0.1",
-  "preparation_revision": 1,
   "current_source_sha256": "7ced1442f3d4eeb9302849a6c76ca2fa0bccae4b21bd3ecebfa391ea51f3a959",
   "selected_primary_records": [
     {
@@ -15,7 +14,7 @@
         "eq:es-q-two",
         "eq:es-q-three"
       ],
-      "role_in_current_paper": "Finite geometric specialization; updated precursor separately asserts vacuum and Q0=0.",
+      "role_in_current_paper": "Finite geometric specialization, with separate vacuum and Q0=0 checks in the upstream jobs.",
       "upstream_exclusions": "One Kasner vacuum at t=1, Lambda=0; pilot contained in the order-three profile. HQ is geometrically differentiated; the polynomial product rule is not exercised. Chiral outputs are conjugate on this real metric. The geometric residual comparison also holds on non-Einstein metrics; the full current Kasner job still asserts vacuum conditions and Q0=0 and is not claimed to pass on those metrics."
     },
     {
@@ -30,7 +29,7 @@
         "eq:es-q-two",
         "eq:es-q-three"
       ],
-      "role_in_current_paper": "Finite geometric specialization; updated precursor separately asserts vacuum and Q0=0.",
+      "role_in_current_paper": "Finite geometric specialization, with separate vacuum and Q0=0 checks in the upstream jobs.",
       "upstream_exclusions": "One Kasner vacuum at t=1, Lambda=0; not all-input or all-order compatibility. HQ is geometrically differentiated; the polynomial product rule is not exercised. Chiral outputs are conjugate on this real metric. The geometric residual comparison also holds on non-Einstein metrics; the full current Kasner job still asserts vacuum conditions and Q0=0 and is not claimed to pass on those metrics."
     },
     {
@@ -237,7 +236,6 @@
   "not_claimed": [
     "arbitrary-input or all-order certification",
     "atomic diagram-mass computation",
-    "analytic convergence by computation",
-    "fresh execution of inherited records"
+    "analytic convergence by computation"
   ]
 }

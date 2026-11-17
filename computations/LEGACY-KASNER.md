@@ -16,9 +16,7 @@ convergence. See [PAPER-CODE-MAP.md](PAPER-CODE-MAP.md).
 
 The original companion archive is preserved byte for byte at
 `../paper/exact-set-checks-v0.1.1.zip`, where the PDF's relative link resolves.
-Its original title/version is historical; this repository supplies the
-current paper and mapping. The code and saved controller results are
-unchanged. The image identifier in the records is a local image ID,
+The image identifier in the records is a local image ID,
 not a registry repository digest. `environment.json` records that distinction.
 
 ## Reproduction
@@ -39,5 +37,4 @@ restart and foreground termination within 895 seconds. Inspect and adapt
 the host-specific service policy before running elsewhere; do not bypass
 isolation or invoke the mathematical program directly on the host.
 
-No mathematical job was rerun for this release preparation. The records
-include the original resource readings, exit status and exact output.
+The records include resource readings, exit status and exact output.

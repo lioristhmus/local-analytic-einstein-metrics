@@ -12,5 +12,5 @@
   "outer_timeout_seconds": 895,
   "temporary_filesystem_bytes": 33554432,
   "read_only_root": true,
-  "note": "Recorded environment; no mathematical job was rerun during release preparation."
+  "note": "Environment and resource limits recorded for the supplied Kasner runs."
 }

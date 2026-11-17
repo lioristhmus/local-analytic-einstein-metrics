@@ -1,6 +1,6 @@
 # Exact Kasner recurrence check
 
-This archive accompanies *Convergent exact-set realization of holomorphic Einstein four-germs*, v0.1.1. It contains the SageMath program, the isolated foreground controller and the recorded exact results for orders 1 and 3. `SHA256SUMS.json` fixes every supplied file.
+The companion archive, [exact-set-checks-v0.1.1.zip](../paper/exact-set-checks-v0.1.1.zip), contains the SageMath program, the isolated foreground controller and the recorded exact results for orders 1 and 3. Its `SHA256SUMS.json` identifies every supplied file.
 
 ## Mathematical inputs and conventions
 

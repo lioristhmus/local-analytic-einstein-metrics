@@ -1,10 +1,11 @@
-# Computational supplement for the extracted Einstein paper
+# Computational supplement
 
-This expanded preparation retains every relevant check from the precursor's
-fixed r3 supplement. The original five-file Kasner companion remains unchanged
-and linked from the PDF. The added `precursor/` directory contains all 85 files
-of the supplement at tag `paper-v1.1`; `UPSTREAM.json` fixes their provenance.
-The mathematical code, saved runs, dependencies, inputs and checksums are unchanged.
+Code, inputs, environments and saved results accompany
+*Local analytic Einstein metrics from free curvature data in four dimensions*.
+The supplement includes the Kasner companion linked from the PDF and the
+85-file computational package published with
+[the projective twistor paper, tag `paper-v1.1`](https://github.com/lioristhmus/projective-twistor-einstein-germs/tree/paper-v1.1/computations).
+[UPSTREAM.json](UPSTREAM.json) identifies that source and its file hashes.
 
 | Relevant group | Retained evidence | Scope |
 | --- | --- | --- |
@@ -19,10 +20,9 @@ These comprise 14 relevant primary record IDs (8 finite-exact and 6 numerical)
 and one independent finite-exact evidence group. Pilots overlap the larger runs;
 coefficient slots include zeros and are not independent examples. The remaining
 14 primary IDs in `precursor/` concern claims outside this paper and are not
-counted here. The full source package is retained so dependencies and provenance
-are not weakened by selective copying.
+counted here.
 
-`PAPER-CODE-MAP.md` maps the new paper; `COVERAGE.json` records all selected and
+[PAPER-CODE-MAP.md](PAPER-CODE-MAP.md) maps the paper; [COVERAGE.json](COVERAGE.json) records all selected and
 excluded IDs. The five-line recurrence and Spencer spectrum match the precursor
 mathematical text exactly after whitespace normalization. Algebraic curvature
 and signed readout conventions also agree. All-order diagram masses and
@@ -55,9 +55,6 @@ Use the pinned, isolated controller and new output directories documented in
 `kasner-r1`, `kasner-r3`, `b-low4` and `b-low8`; the independent job is
 `independent/code/run.py --job witness-r2`. The shared machine-wide lock,
 memory-plus-swap below 2GB, one CPU, no network and finite container deadlines
-remain in force. No mathematical job was rerun for this preparation.
-
-The imported README and review metadata describe the original preparation
-and original manuscript baseline; they are preserved historical provenance,
-not current publication-status claims. Historical audit logs remain separate
-from source-bound accepted runs. See `precursor/INDEPENDENT-EVIDENCE.md`.
+are enforced by those controllers. Saved result files record the execution
+environment, limits and exit status. [INDEPENDENT-EVIDENCE.md](precursor/INDEPENDENT-EVIDENCE.md)
+distinguishes the independent metric calculations from earlier audit logs.

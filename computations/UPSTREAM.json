@@ -4,8 +4,6 @@
   "commit": "6ed092aba2492003e4c25e21c68aa6b2cab04335",
   "path": "computations",
   "source_status": "All 85 tracked files match the fixed tag byte for byte.",
-  "historical_text": "The imported README/review metadata describe the original r3 preparation and its original paper baseline. They are retained verbatim.",
-  "mathematical_jobs_rerun_for_this_preparation": 0,
   "files": {
     "BASELINE.json": "d700e764ca6d6da4c3c2dbdc69b3c44c5d0bc31d640d22328589a9857d5e7b3d",
     "CHANGES.md": "fd8f6fecc0073bdb7ec39711a708e4762b67bb29d447c54faeb672f7d8ba51b7",
