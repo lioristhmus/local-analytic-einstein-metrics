@@ -2,25 +2,34 @@
   "version": "1.0.1",
   "title": "Local analytic Einstein metrics from free curvature data in four dimensions",
   "prepared_at": "2026-11-17T16:20:48.883167+00:00",
-  "state": "LOCAL_PREPARED",
+  "state": "PUBLISHED",
   "github": {
-    "state": "PREVIOUS_VERSION_PUBLIC",
+    "state": "PUBLISHED",
     "planned_owner": "lioristhmus",
     "planned_repository": "local-analytic-einstein-metrics",
     "url": "https://github.com/lioristhmus/local-analytic-einstein-metrics",
-    "release_url": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0",
-    "tag": "v1.0"
+    "release_url": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1",
+    "tag": "v1.0.1",
+    "release_commit": "d7f77a72b96a37acf9fae99007db06f4071d34e8",
+    "download_check": "PASS"
   },
   "zenodo": {
-    "state": "NOT_CREATED",
-    "record_id": null,
-    "doi": null,
-    "concept_doi": null
+    "state": "PUBLISHED",
+    "record_id": 24318760,
+    "doi": "10.5281/zenodo.24318760",
+    "concept_doi": "10.5281/zenodo.24318759",
+    "url": "https://zenodo.org/records/24318760",
+    "download_check": "PASS"
   },
   "orcid": {
-    "state": "NOT_ADDED",
+    "state": "ADDED",
     "author_orcid": "0009-0004-7908-9876",
-    "work_id": null
+    "work_id": null,
+    "url": "https://orcid.org/0009-0004-7908-9876",
+    "doi": "10.5281/zenodo.24318760",
+    "visibility": "Everyone",
+    "verification": "Exact title and version DOI read back on public profile",
+    "ui_work_stack_id": "233745163"
   },
   "hexagon": {
     "state": "NOT_PLANNED",
@@ -33,5 +42,6 @@
     "independent_groups": 1,
     "fresh_mathematical_jobs": 0
   },
-  "status_scope": "Publication state at snapshot preparation; consult main for subsequent links."
+  "status_scope": "Publication state at snapshot preparation; consult main for subsequent links.",
+  "verified_at": "2026-11-17T16:36:21.842088+00:00"
 }

@@ -1,4 +1,4 @@
-# Prepared v1.0.1 release
+# Published v1.0.1 release
 
 Title: *Local analytic Einstein metrics from free curvature data in four dimensions*. Author: Lior Isthmus.
 
@@ -8,7 +8,7 @@ content, assumptions, notation and theorem numbers are unchanged. The companion 
 v0.1.1 and its original bytes. This is a separate paper from the previously
 published projective twistor correspondence.
 
-Planned release assets:
+Release assets:
 
 - `local-analytic-einstein-metrics-en-v1.0.1.pdf`
 - `local-analytic-einstein-metrics-source-v1.0.1.zip`
@@ -16,11 +16,10 @@ Planned release assets:
 - `local-analytic-einstein-metrics-v1.0.1.zip` (the curated repository snapshot)
 - `SHA256SUMS`
 
-GitHub publication comes first, then a new Zenodo preprint record using
-the same files. ORCID can then identify this work using its Zenodo DOI.
-DOI and public URLs are added only after they exist. No Hexagon submission
-is planned. At the preparation of this snapshot (2026-11-18), none of these
-services had been modified by this preparation.
+Published on [GitHub](https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1) and [Zenodo](https://doi.org/10.5281/zenodo.24318760).
+The version DOI is `10.5281/zenodo.24318760`. All five attachments were downloaded from
+both services and compared with the fixed local files. No Hexagon submission
+is planned. Published tags, PDFs and ZIPs are retained unchanged.
 
 The expanded local preparation includes the unchanged precursor r3 supplement
 and its current-paper coverage map. It supersedes the smaller local preparation
