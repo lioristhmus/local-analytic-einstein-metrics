@@ -1,15 +1,15 @@
 {
-  "version": "1.0",
+  "version": "1.0.1",
   "title": "Local analytic Einstein metrics from free curvature data in four dimensions",
-  "prepared_at": "2026-11-17T16:05:48.555133+00:00",
+  "prepared_at": "2026-11-17T16:20:48.883167+00:00",
   "state": "LOCAL_PREPARED",
   "github": {
-    "state": "NOT_CREATED",
+    "state": "PREVIOUS_VERSION_PUBLIC",
     "planned_owner": "lioristhmus",
     "planned_repository": "local-analytic-einstein-metrics",
-    "url": null,
-    "release_url": null,
-    "tag": null
+    "url": "https://github.com/lioristhmus/local-analytic-einstein-metrics",
+    "release_url": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0",
+    "tag": "v1.0"
   },
   "zenodo": {
     "state": "NOT_CREATED",
@@ -26,7 +26,7 @@
     "state": "NOT_PLANNED",
     "submit": false
   },
-  "preparation_revision": 4,
+  "preparation_revision": 1,
   "computations": {
     "scope": "Expanded relevant precursor r3 coverage",
     "primary_records": 14,

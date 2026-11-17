@@ -28,5 +28,5 @@ witness group. `computations/COVERAGE.json` separates exact tests, numerical
 diagnostics and excluded claims. No inherited run is relabeled as a fresh run.
 
 The Abstract heading was changed to centered bold upright roman at the
-abstract body size. The Markdown, bibliography and mathematical content are
-unchanged from preparation r3.
+abstract body size. Version 1.0.1 adds a SageMath/Python computational-check statement to the
+AI-use disclosure. The bibliography and mathematical content are unchanged.

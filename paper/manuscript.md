@@ -4,7 +4,7 @@ author: 'Lior Isthmus\textsuperscript{1}'
 short-author: "Lior Isthmus"
 date: "2026-11-18"
 language: en
-version: "1.0"
+version: "1.0.1"
 bibliography: references.bib
 ---
 
@@ -1455,4 +1455,4 @@ In its orthonormal frame, compute the ordered curvature derivatives through orde
 
 ## AI-use disclosure {.unnumbered .unlisted}
 
-AI systems were used extensively throughout this research and the preparation of this manuscript. The models used were GPT-6 Pro, gpt-6.1-sol (xhigh), and Claude Opus 5.5 (xhigh).
+AI systems were used extensively throughout this research and the preparation of this manuscript. The models used were GPT-6 Pro, gpt-6.1-sol (xhigh), and Claude Opus 5.5 (xhigh). Selected finite algebraic identities and explicit metric examples were checked using SageMath and independent Python implementations; the code, inputs, computational environments and recorded results are provided in the [computational supplement](https://github.com/lioristhmus/local-analytic-einstein-metrics/tree/v1.0.1/computations).

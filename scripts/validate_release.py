@@ -7,7 +7,7 @@ import zipfile
 root = Path(__file__).resolve().parents[1]
 digest = lambda data: hashlib.sha256(data).hexdigest()
 manifest = json.loads((root / "MANIFEST.json").read_text())
-assert manifest["version"] == "1.0"
+assert manifest["version"] == "1.0.1"
 actual = {
     str(p.relative_to(root)) for p in root.rglob("*") if p.is_file()
     and not any(part in {".git", "build", "__pycache__"} for part in p.relative_to(root).parts)
@@ -52,7 +52,7 @@ with zipfile.ZipFile(archive) as bundle:
             assert bundle.read(prefix + name) == (root / "computations/results" / name).read_bytes()
 
 status = json.loads((root / "docs/publication-status.json").read_text())
-assert status["version"] == "1.0" and status["hexagon"]["submit"] is False
+assert status["version"] == "1.0.1" and status["hexagon"]["submit"] is False
 report = {"status": "PASS", "manifest_files": len(actual),
           "saved_components_by_max_order": checked_components,
           "original_companion_archive": "PASS", "mathematical_jobs_started": 0,

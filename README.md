@@ -1,6 +1,6 @@
 # Local analytic Einstein metrics from free curvature data in four dimensions
 
-Lior Isthmus · prepared release v1.0 · [ORCID](https://orcid.org/0009-0004-7908-9876)
+Lior Isthmus · prepared release v1.0.1 · [ORCID](https://orcid.org/0009-0004-7908-9876)
 
 This paper reconstructs marked holomorphic Einstein metric germs in four
 dimensions from two free chiral curvature records satisfying a factorial
@@ -14,14 +14,15 @@ Jacobi realization, holomorphic dependence and the Lorentz real form.
 - [Build instructions](docs/BUILD.md), [verification](docs/VERIFICATION.md) and [release notes](docs/RELEASE.md)
 - [Citation](CITATION.cff) and [licenses](LICENSES.md)
 
-At the preparation of this snapshot (2026-11-18), GitHub publication,
-Zenodo DOI creation and ORCID registration had not yet taken place.
+This v1.0.1 snapshot was prepared on 2026-11-18 after the GitHub v1.0
+release. Zenodo DOI creation and ORCID registration for this work had not
+yet taken place.
 [publication-status.json](docs/publication-status.json) records that snapshot;
 the main branch will carry subsequent publication links. No Hexagon submission
 is planned for this paper.
 
 The manuscript derives from the completed reading version, editorial v0.1.12.
-This v1.0 preparation incorporates copyediting, bibliographic and layout
+This v1.0.1 preparation incorporates copyediting, bibliographic and layout
 corrections following prepublication review; its mathematical content,
 assumptions, notation and theorem numbers are unchanged. The projective twistor paper cited in the introduction is a
 separate precursor, not an earlier version of this deposit.
