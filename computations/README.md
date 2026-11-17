@@ -38,6 +38,16 @@ Run that command from the repository root. It also runs the precursor's file-onl
 QA, checking all 85 files, 84 checksums, source/log/input correspondence and
 the independent convention controls. No mathematical program is invoked.
 
+For the computations-only ZIP, run its self-contained upstream validator from
+the archive root instead:
+
+```sh
+python3 computations/precursor/code/verify_package.py
+```
+
+That command checks the unchanged 85-file precursor package. The archive's
+`ARCHIVE-MANIFEST.json` additionally records the wrapper files and current-paper map.
+
 ## Reproduce mathematical jobs
 
 Use the pinned, isolated controller and new output directories documented in
