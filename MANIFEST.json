@@ -31,8 +31,8 @@
       "bytes": 726
     },
     "README.md": {
-      "sha256": "7a19d0379bc5c0dc70f3e33ed4cc842b1796face5402a48f62ca949053ceabe5",
-      "bytes": 3200
+      "sha256": "dadb6483d8d5abdd9339c746b92e79169243d1efafd2f4f4ce594423deb00a68",
+      "bytes": 3151
     },
     "citation.bib": {
       "sha256": "5bd3b84d56ead887dfc9f39799d5fdc30749078cd8b96a970c99a314f53fdfc5",
@@ -431,16 +431,16 @@
       "bytes": 1287
     },
     "docs/RELEASE.md": {
-      "sha256": "5d14cba53a8f4c81a2f8bd03077656ecb1287e5e75b3eca85b940d818cc76e65",
-      "bytes": 1862
+      "sha256": "76b4f3a3599b3e1673a17287de759f57d0aa47cddddadee06aafcbca47d602e5",
+      "bytes": 1828
     },
     "docs/VERIFICATION.md": {
       "sha256": "8d34d2bea343cd6e05aeb9601a289347f4bfda948dbee524a1b56474cff0a9ea",
       "bytes": 1825
     },
     "docs/publication-status.json": {
-      "sha256": "d00126afbe06473f7fc964feae370bf875ef4a66f6d1e45875a927e258b03434",
-      "bytes": 1625
+      "sha256": "02393addd66f1406a114adfa66fab8a082a89f3726f96223ea2d507cc76a16a1",
+      "bytes": 1557
     },
     "paper/exact-set-checks-v0.1.1.zip": {
       "sha256": "0de3060e7363ae6f0e3568a042664b923a75b81a7a0d1a60454f77ddc6dcdf71",
@@ -471,8 +471,8 @@
       "bytes": 3194
     },
     "scripts/validate_release.py": {
-      "sha256": "5dbee5bc7bf27011dafd69afb7a1162eca32adbde0b1d7278ee8aaffaa35bed4",
-      "bytes": 4642
+      "sha256": "7f61c3ebc6bb341e455c5bb2da8002de3efa3b073c456bf1465187e1921e5b85",
+      "bytes": 4601
     }
   }
 }

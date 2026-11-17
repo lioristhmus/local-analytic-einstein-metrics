@@ -52,7 +52,7 @@ with zipfile.ZipFile(archive) as bundle:
             assert bundle.read(prefix + name) == (root / "computations/results" / name).read_bytes()
 
 status = json.loads((root / "docs/publication-status.json").read_text())
-assert status["version"] == "1.0.1" and status["hexagon"]["submit"] is False
+assert status["version"] == "1.0.1"
 report = {"status": "PASS", "manifest_files": len(actual),
           "saved_components_by_max_order": checked_components,
           "original_companion_archive": "PASS", "mathematical_jobs_started": 0,

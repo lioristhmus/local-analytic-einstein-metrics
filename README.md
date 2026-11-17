@@ -19,7 +19,6 @@ Version 1.0.1 is published on [GitHub](https://github.com/lioristhmus/local-anal
 [publication-status.json](docs/publication-status.json) records the verified
 publication links. The work is also listed in [ORCID](https://orcid.org/0009-0004-7908-9876).
 Version v1.0 and its release assets remain available.
-No Hexagon submission is planned for this paper.
 
 The manuscript derives from the completed reading version, editorial v0.1.12.
 This v1.0.1 preparation incorporates copyediting, bibliographic and layout

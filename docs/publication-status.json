@@ -31,10 +31,6 @@
     "verification": "Exact title and version DOI read back on public profile",
     "ui_work_stack_id": "233745163"
   },
-  "hexagon": {
-    "state": "NOT_PLANNED",
-    "submit": false
-  },
   "preparation_revision": 1,
   "computations": {
     "scope": "Expanded relevant precursor r3 coverage",
