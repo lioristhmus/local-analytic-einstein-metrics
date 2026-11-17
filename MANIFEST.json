@@ -11,8 +11,8 @@
       "bytes": 1551
     },
     "CITATION.cff": {
-      "sha256": "01279e3ea9611992933df5b10a33bcf891208e4f9749cb06bbae2dca5eb2917b",
-      "bytes": 883
+      "sha256": "5faeb6bb29caac45cf28799d6cb04a6aed0d712832677b63026089f216e95c1b",
+      "bytes": 923
     },
     "LICENSE": {
       "sha256": "df5b6fa466b7fc0331d8ab49664fe223f1aa3e823b24a0f9484a0666225f36a6",
@@ -31,12 +31,12 @@
       "bytes": 717
     },
     "README.md": {
-      "sha256": "831bee2ecc339c4ef25d8241e5328fc82521b54c9611a7b106ad7c78f67497c5",
-      "bytes": 2328
+      "sha256": "9073fc99e221a0bf52009c5aefa98c8dacee461c8c4c4faf2d52dfaf0c663033",
+      "bytes": 2462
     },
     "citation.bib": {
-      "sha256": "82e392be4b22da2d69c1b39d4c0e65332c64943784aea0f73ccfe181fbc5f666",
-      "bytes": 284
+      "sha256": "f318889be9dbf266cdd73c265ef427c05db70eff3effd7867273ba803cc3143c",
+      "bytes": 304
     },
     "computations/COVERAGE.json": {
       "sha256": "d0e42a8e0bb8d55e98e103848b065be6220887995e4a356fab50f26472e26619",
@@ -439,8 +439,8 @@
       "bytes": 1328
     },
     "docs/publication-status.json": {
-      "sha256": "40eafded9219be7e5509bf7b7ef8cc7582bf11fc2c938fff2202c730488669d6",
-      "bytes": 680
+      "sha256": "b2b8961c525b7171c068f368d0a7a751788bbc25627872f68ca72f10c019d62e",
+      "bytes": 803
     },
     "paper/exact-set-checks-v1.0.2.zip": {
       "sha256": "d56010678a26a95784a2cde8d0f5cee021b36c0b6509549d74659d53c4b6aa4d",

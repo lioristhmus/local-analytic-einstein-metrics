@@ -9,6 +9,7 @@ uniform coefficient estimates, convergent record flows, direct radial
 Jacobi realization, holomorphic dependence and the Lorentz real form.
 
 - [Paper PDF](paper/manuscript.pdf)
+- [v1.0.2 release: PDF, sources and computations](https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.2)
 - [Canonical Markdown](paper/manuscript.md), [TeX](paper/manuscript.tex) and [bibliography](paper/references.bib)
 - [Computational supplement](computations/README.md), [paper-to-code map](computations/PAPER-CODE-MAP.md) and [coverage index](computations/COVERAGE.json)
 - [Build instructions](docs/BUILD.md), [verification](docs/VERIFICATION.md) and [release notes](docs/RELEASE.md)

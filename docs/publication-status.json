@@ -12,6 +12,9 @@
       "github": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.1",
       "zenodo": "https://zenodo.org/records/24318760",
       "doi": "10.5281/zenodo.24318760"
+    },
+    "1.0.2": {
+      "github": "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.2"
     }
   }
 }
