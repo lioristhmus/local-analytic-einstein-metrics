@@ -7,6 +7,7 @@ authors:
     family-names: Isthmus
     orcid: "https://orcid.org/0009-0004-7908-9876"
 version: "1.0.2"
+doi: "10.5281/zenodo.24326854"
 url: "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.2"
 license:
   - CC-BY-4.0
@@ -26,4 +27,5 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0004-7908-9876"
   year: 2026
   version: "1.0.2"
-  url: "https://github.com/lioristhmus/local-analytic-einstein-metrics/releases/tag/v1.0.2"
+  doi: "10.5281/zenodo.24326854"
+  url: "https://doi.org/10.5281/zenodo.24326854"

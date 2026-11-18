@@ -15,8 +15,8 @@ Jacobi realization, holomorphic dependence and the Lorentz real form.
 - [Build instructions](docs/BUILD.md), [verification](docs/VERIFICATION.md) and [release notes](docs/RELEASE.md)
 - [Citation](CITATION.cff) and [licenses](LICENSES.md)
 
-Published editions are available on [GitHub](https://github.com/lioristhmus/local-analytic-einstein-metrics/releases) and
-[Zenodo](https://doi.org/10.5281/zenodo.24318759).
+Zenodo v1.0.2: [10.5281/zenodo.24326854](https://doi.org/10.5281/zenodo.24326854).
+[All versions](https://doi.org/10.5281/zenodo.24318759) remain available.
 
 ## Verify the supplied files
 
